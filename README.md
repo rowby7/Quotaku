@@ -1,4 +1,4 @@
-# Quotaku
+# Quotaku - Rowby Villanueva
 
 ## Table of Contents
 
@@ -15,9 +15,38 @@ Quotaku is a lightweight mobile app that delivers iconic anime quotes straight t
 Whether you're seeking inspiration, nostalgia, or just a good laugh, Quotaku fetches memorable lines from your favorite anime characters using the Animechan API. 
 Users can browse random quotes, search by character or title, and save their favorites to revisit anytime.
 
+## 🚀 Live Demo
+
+https://github.com/user-attachments/assets/773c5c76-7e05-4e8e-9601-0e82c76d2302
+
+## 💡 Problem Statement
+
+### The Quote Discovery Gap: 
+While fans remember powerful moments and inspiring dialogue from their favorite shows, finding and sharing specific quotes when you want them can be frustrating. That perfect quote for motivation or to share with friends often gets lost in memory.
+
+### Recommendation Overload: 
+Friends, online communities, and social media constantly generate anime recommendations, but keeping track of "must-watch" series becomes overwhelming. Great suggestions get forgotten in the endless scroll of content.
+
+### Fragmented Anime Management: 
+Fans currently juggle multiple platforms, notes apps, and mental lists to track what they want to watch, what they're currently watching, and what they've completed, leading to a disorganized viewing experience.
+
+
+## ✨ Solution
+Our anime app addresses these pain points by providing:
+
+### Instant Quote Search: 
+Discover memorable quotes from any anime series at your fingertips
+
+### Personal Anime Vault: 
+Save and organize anime synopses for future viewing in your personalized watchlist
+
+### Streamlined Discovery: 
+Transform scattered recommendations into an organized, accessible collection
+
+By combining quote discovery with watchlist management, we're creating the ultimate companion app for anime fans who want to celebrate the medium's most inspiring moments while never losing track of their next great series to explore.
+
 ### App Evaluation
 
-[Evaluation of your app across the following attributes]
 - **Category:** Entertainment
 - **Mobile:** Designed for quick, on-the-go inspiration
 - **Story:** Appeals to anime fans by connecting them with emotional and philosophical depth of their favorite shows
@@ -25,11 +54,27 @@ Users can browse random quotes, search by character or title, and save their fav
 - **Habit:**
 - **Scope:**
 
+## 🎨 Features
+
+### Current Features (MVP - Weeks 1-5)
+- [x] Quote Search based on Anime
+- [x] Favorite an Anime
+- [x] Favorites tab view
+- [x] Grouped Favorites Names
+
+### Planned Features (Weeks 6-10)
+- [ ] Pick between quote search and synopses search
+- [ ] Anime synopses search
+- [ ] Synopses Favorites button/saving
+- [ ] Finished/Started watching button
+
+## 🛠️ Technical Stack
+### Frontend
+- ##Swift##
+
+
+
 ## Product Spec
-
-### 1. User Stories (Required and Optional)
-
-**Required Must-have Stories**
 
 * User can view a random anime quote on app launch
 * User can search for quotes by anime title
@@ -37,19 +82,9 @@ Users can browse random quotes, search by character or title, and save their fav
 * User can view a list of saved quotes
 * User can refresh to get a new random quote
 
-**Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
 
-### 2. Screen Archetypes
 
-- [x] Home Screen(Quote Discovery)
-* 3–5 featured anime cells displayed below the search bar
-  * Each cell shows the anime title and a random quote pulled from that anime
-- [x] Quote Detail Screen
-* Centered quote display showing the full anime quote in large, readable text
-* Anime title and character name shown below the quote
 
 ### 3. Navigation
 
@@ -81,7 +116,6 @@ Users can browse random quotes, search by character or title, and save their fav
 ### [BONUS] Interactive Prototype
 
 
-https://github.com/user-attachments/assets/773c5c76-7e05-4e8e-9601-0e82c76d2302
 
 
 ## Schema 
